@@ -1,0 +1,37 @@
+# ========== DATA AND OUTPUT ==========
+data/
+experiments/
+report_assets/
+logs/
+.cache/
+cache/
+runs/
+
+# ========== ENVIRONMENTS ==========
+envs/
+conda-pkgs/
+
+# ========== MODEL WEIGHTS & LARGE FILES ==========
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+
+# ========== TRAINING FOLDERS ==========
+CONVAE/
+UNET_AE/
+
+# ========== PYTHON ==========
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ========== EDITOR ==========
+.vscode/
+
+# ========== TEMP ==========
+tmp*/
+*.tmp
+*.log

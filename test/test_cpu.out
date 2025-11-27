@@ -1,0 +1,5 @@
+Python version
+3.8.20 (default, Oct  3 2024, 15:24:27) 
+[GCC 11.2.0]
+Version info.
+sys.version_info(major=3, minor=8, micro=20, releaselevel='final', serial=0)
