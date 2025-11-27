@@ -1,7 +1,7 @@
 # ========== DATA AND OUTPUT ==========
 data/
 experiments/
-report_assets/
+report_assets/*
 logs/
 .cache/
 cache/
@@ -22,6 +22,19 @@ conda-pkgs/
 # ========== TRAINING FOLDERS ==========
 CONVAE/
 UNET_AE/
+
+# ========== REPORT ASSETS (only PNG loss curves allowed) ==========
+# Ignore everything in report_assets
+report_assets/*
+
+# Allow the loss_curves folder itself
+!report_assets/loss_curves/
+
+# Allow only PNGs inside loss_curves
+!report_assets/loss_curves/*.png
+
+# Re-ignore SVGs
+report_assets/loss_curves/*.svg
 
 # ========== PYTHON ==========
 __pycache__/
